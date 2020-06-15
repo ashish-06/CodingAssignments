@@ -2,6 +2,8 @@
 1. take string as input
 2. split that string into an array of character using split()
 3. Use hashmap (it stores unique value)
+4. use for each loop to store each value one at a time
+5.
  */
 
 import java.util.HashMap;
@@ -19,9 +21,9 @@ public class countEachCharOccurance
         HashMap <String, Integer> hm = new HashMap<String, Integer>();
         for(String tempStr: str1)
         {
-            if(hm.get(tempStr)!=null)
+            if(hm.get(tempStr)!=null) // if its not null that means value is already present and in that case increase the count to 1.
             {
-                hm.put(tempStr,hm.get(tempStr)+1);
+                hm.put(tempStr,hm.get(tempStr)+1); // hm.put(key, value) // hm.get(tempstr)=1 -> it will get the current value and increment with 1.
             }
             else hm.put(tempStr,1);
 
