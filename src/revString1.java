@@ -1,3 +1,4 @@
+//hsihsA si eman yM
 public class revString1
 {
     public static void main(String[] args)
