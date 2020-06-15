@@ -2,8 +2,9 @@
 1. take string as input
 2. split that string into an array of character using split()
 3. Use hashmap (it stores unique value)
-4. use for each loop to store each value one at a time
-5.
+4. use foreach loop to store each value one at a time
+5. use condition: if hashmap.get(str)!=null, it means value is already present, in this case just increase the value with 1. (hm.put(str,hm.get(Str)+1)
+6. or else add the value in hashmap hm.put(str,1)
  */
 
 import java.util.HashMap;
