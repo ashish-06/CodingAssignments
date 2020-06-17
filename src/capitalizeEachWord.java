@@ -6,6 +6,7 @@
 5. store rest of letter in second string var, //afterStr= c.substring(1);
 6. convert the first string var to uppercase using irst.toUpperCase() and concat the second string var, then print the result   1
  */
+
 public class capitalizeEachWord
 {
     public static void main(String[] args)
